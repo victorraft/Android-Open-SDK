@@ -176,9 +176,9 @@ public class StreamActivity extends AppCompatActivity implements RtmpHandler.Rtm
 
 
     /*
-    * EncoderHandler implementation
-    * You can use these callbacks to get events from the streamer
-    * */
+     * EncoderHandler implementation
+     * You can use these callbacks to get events from the streamer
+     * */
 
     @Override
     public void onNetworkWeak() {
@@ -197,8 +197,8 @@ public class StreamActivity extends AppCompatActivity implements RtmpHandler.Rtm
 
 
     /*
-    * RecordHandler implementation
-    * */
+     * RecordHandler implementation
+     * */
 
     @Override
     public void onRecordPause() {
@@ -231,8 +231,8 @@ public class StreamActivity extends AppCompatActivity implements RtmpHandler.Rtm
     }
 
     /*
-    * RTMPListener implementation
-    * */
+     * RTMPListener implementation
+     * */
 
     @Override
     public void onRtmpConnecting(String s) {
