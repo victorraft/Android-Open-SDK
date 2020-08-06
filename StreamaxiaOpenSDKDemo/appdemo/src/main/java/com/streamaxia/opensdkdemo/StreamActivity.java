@@ -84,7 +84,7 @@ public class StreamActivity extends AppCompatActivity implements RtmpHandler.Rtm
         } else {
             Intent intent = new Intent(this, SplashscreenActivity.class);
             startActivity(intent);
-            Toast.makeText(this, "You need to grant persmissions in order to begin streaming.", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "You need to grant permissions in order to begin streaming.", Toast.LENGTH_LONG).show();
         }
     }
 
